@@ -1,7 +1,7 @@
 -- Fact Sessions will contain all session data along with useful transformations for analysis
 
 
-create or replace table test_fact_sessions as (
+create or replace table fact_sessions as (
 
 SELECT 
 hashed_user_id
